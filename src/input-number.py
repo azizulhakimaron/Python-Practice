@@ -1,2 +1,2 @@
-x=int(input("the Number"))
+x=int(input("The number: "))
 print(f"The Number{x}")
