@@ -1,5 +1,4 @@
 s=0
-i=1
 a,b=input("Range").split()
 a=int(a)
 b=int(b)
