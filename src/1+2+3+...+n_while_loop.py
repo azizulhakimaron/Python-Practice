@@ -6,4 +6,5 @@ a=int(input("The Value Of 'n'"))
 while i<=a:
     s=s+i
     i=i+1
+    
 print("The Sum",s)
