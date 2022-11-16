@@ -78,3 +78,19 @@ def cart_polar(a,b):
     if b==0 and a<0:
         q8=180
         return r,q8
+#fibonacci()     
+def fibonacci(z):
+    a=0
+    b=1
+    if z==1:
+        print(a)
+    if z==2:
+        print(a,b)
+    if z>2:
+        print(a,b,end=" ")
+        for i in range(z-2):
+            c=a+b
+            a=b
+            b=c
+            print(b,end=" ")
+
