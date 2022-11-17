@@ -61,5 +61,3 @@ if x<0 and y==0:
     print(f"The Polar point:({r},180)")
 if x==0 and y<0:
     print(f"The Polar point:({r},270)")
-
-
