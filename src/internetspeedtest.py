@@ -1,4 +1,4 @@
-import speedtest as spd
+import speedtest as spd # speedtest-cli
 test=spd.Speedtest()
 x=test.download()
 y=test.upload()
