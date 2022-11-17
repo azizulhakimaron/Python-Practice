@@ -7,6 +7,3 @@ while True:
         break
     x=x+1
 print("LCM:",x)
-    
-   
-    

@@ -3,5 +3,3 @@ i=1
 while i<=a:
     print("Hello World",i)
     i=i+1
-
-

@@ -14,5 +14,3 @@ def fibonacci(z):
             print(b,end=" ")
 x=fibonacci(10)
 print(x)
-    
-

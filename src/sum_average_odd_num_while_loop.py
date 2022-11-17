@@ -29,5 +29,3 @@ if a%2==1:
     if b%2==1:
         z=sum/p
         print("Average:",z)
-    
-   
