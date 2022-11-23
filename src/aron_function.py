@@ -94,3 +94,27 @@ def fibonacci(z):
             b=c
             print(b,end=" ")
 
+#neg_list
+def neg_list(l):
+    x=[]
+    for i in l:
+        x.append(-i)
+    return x
+#squrare_list
+def square_list(l):
+    x=[]
+    for i in l:
+        x.append(i**2)
+    return x
+#sum_list
+def sum_list(l):
+    sum=0
+    for i in l:
+        sum=sum+i
+    return (sum)
+#cube_list
+def cube_list(l):
+    x=[]
+    for i in l:
+        x.append(i**3)
+    return x
