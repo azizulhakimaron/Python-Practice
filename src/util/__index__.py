@@ -118,3 +118,33 @@ def cube_list(l):
     for i in l:
         x.append(i**3)
     return x
+#reverse_list
+def reverse_list(l):
+    l.reverse()
+    return l
+#reverse_string_reverse
+def list_string_reverse(l):
+    x=[]
+    for i in l:
+        y=i[::-1]
+        x.append(y)
+    return x
+#odd_even_list
+def odd_even_list(l):
+    x=[]
+    y=[]
+    for i in l:
+        if i%2==0:
+            x.append(i)
+        if i%2==1:
+            y.append(i)
+    z=[x,y]
+    return z
+#list_common
+def list_common(a,b):
+    x=[]
+    for i in a:
+        if i in b:
+            x.append(i)
+    return x
+
