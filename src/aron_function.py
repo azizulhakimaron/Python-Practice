@@ -147,4 +147,16 @@ def list_common(a,b):
         if i in b:
             x.append(i)
     return x
+#dict_cude_finder
+def dict_cube_finder(a):
+    b={}
+    for i in range(1,a+1):
+        b[i]=i**3
+    return(b)
 
+#word_count
+def word_count(a):
+    count={}
+    for i in a:
+        count[i]=a.count(i)
+    return count
