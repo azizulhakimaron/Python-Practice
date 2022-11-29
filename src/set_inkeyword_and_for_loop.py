@@ -6,3 +6,4 @@ else:
     print("Not Present")
 for i in s:
     print(i)
+
