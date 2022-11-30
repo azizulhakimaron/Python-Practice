@@ -160,3 +160,15 @@ def word_count(a):
     for i in a:
         count[i]=a.count(i)
     return count
+#*arg(all_total(1,2,3,4))
+def all_total(*args):
+    sum=0
+    for i in args:
+        sum=sum+i
+    return sum
+#*arg(all_multiply(1,2,3,4))
+def all_multiply(*args):
+    m=1
+    for i in args:
+        m=m*i
+    return m
