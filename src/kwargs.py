@@ -20,3 +20,9 @@ def func3(name="Aron",age=24):
     print(age)
 func3()
 func3("Kasab",24)
+#
+def func4(name="Unknown",*args,**kwargs):
+    print(name)
+    print(args)
+    print(kwargs)
+func4("Aron",1,2,3,a=2,b=3)

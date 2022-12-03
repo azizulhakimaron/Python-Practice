@@ -29,7 +29,7 @@ def cart_polar(a,b):
     if b==0 and a<0:
         q8=180
         return r,q8
-x,y=input("The Cartesian point:").split()
+x,y=input("The Cartesian point:").split(",")
 x=float(x)
 y=float(y)
 z=cart_polar(x,y)
